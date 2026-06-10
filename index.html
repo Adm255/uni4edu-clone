@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Uni4Edu Clone</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- TOP BAR -->
+    <div class="border-b border-gray-200">
+      <div
+        class="max-w-7xl mx-auto px-6 py-3 flex justify-end items-center gap-8"
+      >
+        <a href="#" class="text-sm text-gray-700 hover:text-black">
+          Become an Agent
+        </a>
+
+        <a href="#" class="text-sm text-gray-700 hover:text-black">
+          Partnership
+        </a>
+
+        <div class="flex items-center gap-2">
+          <img src="https://flagcdn.com/w20/gb.png" alt="English" class="w-5" />
+          <span class="text-sm">EN</span>
+          <span>▼</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="bg-white">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <!-- LEFT SIDE -->
+        <div class="flex items-center gap-12">
+          <!-- Logo -->
+          <img
+            src="https://d26uhjq9x2kecg.cloudfront.net/image-opt/128/75/%2Flogo%2Fhome.svg"
+            alt="Uni4Edu Logo"
+            class="h-12"
+          />
+
+          <!-- Menu -->
+          <ul class="flex items-center gap-8 text-gray-800 font-medium">
+            <li class="cursor-pointer flex items-center gap-1">
+              Universities <span class="text-xs">▼</span>
+            </li>
+
+            <li class="cursor-pointer">Masters</li>
+
+            <li class="cursor-pointer flex items-center gap-1">
+              Language Schools <span class="text-xs">▼</span>
+            </li>
+
+            <li class="cursor-pointer flex items-center gap-1">
+              Summer Schools <span class="text-xs">▼</span>
+            </li>
+
+            <li class="cursor-pointer">High School</li>
+          </ul>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="flex items-center gap-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-6 h-6 text-cyan-400 cursor-pointer"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-4.35-4.35M11 18a7 7 0 100-14 7 7 0 000 14z"
+            />
+          </svg>
+
+          <button
+            class="bg-cyan-400 px-10 py-4 rounded-xl text-black font-semibold"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative h-[760px]">
+      <!-- Background Image -->
+      <img
+        src="https://d26uhjq9x2kecg.cloudfront.net/image-opt/3840/90/https%3A%2F%2Fd26uhjq9x2kecg.cloudfront.net%2Funiversity%2Fhome-main-uni4edu-1771717446202-PHOTO_URL%3Fcb%3D1771717449841"
+        alt="Students"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black/20"></div>
+
+      <!-- Content -->
+      <div class="relative max-w-7xl mx-auto px-10 h-full flex items-center">
+        <div class="max-w-2xl text-white">
+          <h1 class="text-6xl font-bold leading-tight mb-8">
+            Find Your Perfect University, Language School or Summer Schools
+            Program
+          </h1>
+
+          <p class="text-xl leading-relaxed mb-10">
+            Uni4edu simplifies the journey to studying abroad by bringing top
+            institutions worldwide into a single digital platform.
+          </p>
+
+          <div class="flex gap-5">
+            <button
+              class="bg-cyan-400 px-7 py-3 rounded-lg font-semibold text-black"
+            >
+              Explore Programs
+            </button>
+
+            <button
+              class="bg-white text-cyan-500 px-7 py-3 rounded-lg font-semibold"
+            >
+              Get Free Advice
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEARCH SECTION -->
+    <section class="bg-white">
+      <div class="max-w-6xl mx-auto -mt-20 relative z-20">
+        <!-- Tabs -->
+        <div class="flex">
+          <button
+            class="bg-blue-600 text-white px-12 py-4 font-semibold rounded-t-lg"
+          >
+            University Programs
+          </button>
+
+          <button class="bg-gray-100 px-12 py-4 font-semibold rounded-t-lg">
+            Language Schools
+          </button>
+
+          <button class="bg-gray-100 px-12 py-4 font-semibold rounded-t-lg">
+            Summer Schools
+          </button>
+        </div>
+
+        <!-- Search Box -->
+        <div class="bg-white shadow-xl p-8">
+          <div class="grid grid-cols-5 gap-4">
+            <select class="border border-gray-300 p-3 rounded-lg">
+              <option>Location</option>
+            </select>
+
+            <select class="border border-gray-300 p-3 rounded-lg">
+              <option>Institution</option>
+            </select>
+
+            <select class="border border-gray-300 p-3 rounded-lg">
+              <option>Discipline</option>
+            </select>
+
+            <select class="border border-gray-300 p-3 rounded-lg">
+              <option>Program Level</option>
+            </select>
+
+            <button class="bg-cyan-400 rounded-lg font-semibold text-black">
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
